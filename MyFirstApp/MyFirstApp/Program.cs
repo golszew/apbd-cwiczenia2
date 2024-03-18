@@ -10,9 +10,9 @@ Console.WriteLine("Modyfikcja3");
 static double GetAverage(int[] numbers)
 {
     int sum = 0;
-    foreach (var number in numbers)
+    foreach (var numer in numbers)
     {
-        sum += number;
+        sum += numer;
     }
 
     return (double) sum / numbers.Length;
