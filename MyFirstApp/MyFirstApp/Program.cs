@@ -22,3 +22,20 @@ static double GetAverage(int[] numbers)
 int[] numbers = {1, 2, 3, 4};
 
 Console.WriteLine(GetAverage(numbers));
+
+static int GetMax(int[] tab)
+{
+    int max = tab[0];
+    
+    for(int i=1; i<tab.Length; i++)
+    {
+        if (max < tab[i])
+            max = tab[i];
+    }
+
+    return max;
+}
+
+
+
+Console.WriteLine(GetMax(numbers));
